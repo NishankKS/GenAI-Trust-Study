@@ -1,0 +1,8 @@
+RANDOMISATION REFERENCE: fixed start against 500 random-start draws
+   statistic  fixed_start  random_start_mean  random_start_sd  percentile  population
+     n_words      35.5178            35.5519           0.5309        48.8     35.5445
+       depth       1.3405             1.3905           0.0482        15.2      1.3935
+  caps_ratio       0.0475             0.0449           0.0012        99.0      0.0448
+       score       5.0245             5.9669           1.1092        16.8      5.9930
+is_top_level       0.4741             0.4658           0.0099        80.6      0.4657
+all percentiles inside [15.2, 99.0]

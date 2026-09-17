@@ -1,0 +1,8 @@
+groundedness of the 100 sampled triples (automatic lexical check, not a precision estimate)
+
+                                check   n  share
+    subject present in source comment 100   0.95
+     object present in source comment 100   0.81
+both endpoints present (groundedness) 100   0.77
+
+valence distribution of the sampled triples:

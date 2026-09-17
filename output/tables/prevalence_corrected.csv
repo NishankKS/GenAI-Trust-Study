@@ -1,0 +1,5 @@
+quantity,naive,corrected,ci_low,ci_high,shift_pp
+relevant,0.3029,0.6405,0.5602,0.7273,33.76
+distrust,0.2403,0.3149,0.26,0.3721,7.46
+trust,0.1153,0.1624,0.1258,0.2046,4.71
+incivil,0.0291,0.1499,0.1037,0.2028,12.08

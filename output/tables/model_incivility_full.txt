@@ -1,0 +1,36 @@
+ Family: binomial  ( logit )
+Formula:          
+incivil ~ stance3 + log_words + depth_c + caps_ratio + n_2ndperson +  
+    venue + month + (1 | link_id)
+Data: MS
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+  18938.1   19096.0   -9452.1   18904.1     79983 
+
+Random effects:
+
+Conditional model:
+ Groups  Name        Variance Std.Dev.
+ link_id (Intercept) 0.8342   0.9134  
+Number of obs: 80000, groups:  link_id, 8276
+
+Conditional model:
+                       Estimate Std. Error z value Pr(>|z|)    
+(Intercept)            -5.05034    0.13792  -36.62  < 2e-16 ***
+stance3trust          -18.50194 1507.35894   -0.01 0.990207    
+stance3distrust         1.59830    0.05235   30.53  < 2e-16 ***
+stance3ambivalent     -16.21405 1376.04555   -0.01 0.990599    
+log_words              -0.46070    0.02988  -15.42  < 2e-16 ***
+depth_c                 0.51686    0.01715   30.13  < 2e-16 ***
+caps_ratio             -0.10204    0.02975   -3.43 0.000603 ***
+n_2ndperson             0.43507    0.01836   23.70  < 2e-16 ***
+venueChatGPT            0.61560    0.11309    5.44 5.22e-08 ***
+venueMachineLearning   -0.42892    0.29748   -1.44 0.149345    
+venueOpenAI             0.65756    0.12599    5.22 1.80e-07 ***
+month2026-04           -0.11995    0.10266   -1.17 0.242640    
+month2026-05           -0.08268    0.10354   -0.80 0.424582    
+month2026-06           -0.20846    0.10698   -1.95 0.051342 .  
+month2026-07           -0.15068    0.10606   -1.42 0.155388    
+month2026-08           -0.04939    0.10613   -0.47 0.641690    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

@@ -1,0 +1,13 @@
+pass,construct,n,macro_f1,accuracy,kappa
+A gpt-oss-120b,relevance,161,0.686,0.7453,0.4104
+A gpt-oss-120b,stance,161,0.6195,0.6894,0.552
+A gpt-oss-120b,any_incivility,161,0.7182,0.8696,0.4401
+B qwen3.8-27b,relevance,350,0.7347,0.8257,0.4783
+B qwen3.8-27b,stance,350,0.5775,0.7114,0.5703
+B qwen3.8-27b,any_incivility,350,0.7705,0.8629,0.542
+C safeguard-20b,relevance,0,,,
+C safeguard-20b,stance,0,,,
+C safeguard-20b,any_incivility,356,0.7523,0.8764,0.5066
+D claude-opus-5,relevance,358,0.7349,0.8184,0.4838
+D claude-opus-5,stance,358,0.5874,0.7179,0.5795
+D claude-opus-5,any_incivility,358,0.8421,0.9078,0.6843

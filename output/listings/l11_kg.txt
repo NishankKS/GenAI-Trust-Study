@@ -1,0 +1,5 @@
+[S13] extracting from 867 comments
+[S13] 217 batches, 217 cached, 0 pending
+[S13] 322 raw triples
+[S13] 274 canonical edges over 254 nodes
+[S13] 38 communities (modularity 0.615)

@@ -1,0 +1,6 @@
+model: BAAI/bge-small-en-v1.5
+max_seq_length: 192
+device: cpu
+threads: 16
+throughput 130 docs/s  |  full corpus 827,233 docs projected 106 min  |  budget 600 min
+scope: FULL corpus, n=827,233

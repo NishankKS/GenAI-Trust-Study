@@ -1,0 +1,13 @@
+﻿column,allowed
+relevance,1 = relevant  ·  2 = not_relevant
+stance,1 = trust  ·  2 = distrust  ·  3 = ambivalent  ·  4 = non_evaluative
+dimension,1 = competence_reliability  ·  2 = integrity_motives  ·  3 = safety_risk  ·  4 = transparency  ·  5 = societal_impact  ·  6 = not_applicable
+target,1 = specific_model  ·  2 = company  ·  3 = technology_general  ·  4 = community_users  ·  5 = not_applicable
+incivility_direction,1 = at_user  ·  2 = at_third_party  ·  3 = at_ai  ·  4 = none
+inc_name_calling,"x or 1 = yes, blank = no"
+inc_vulgarity,"x or 1 = yes, blank = no"
+inc_aspersion,"x or 1 = yes, blank = no"
+inc_lying_accusation,"x or 1 = yes, blank = no"
+inc_pejorative_speech,"x or 1 = yes, blank = no"
+inc_identity_attack,"x or 1 = yes, blank = no"
+inc_threat,"x or 1 = yes, blank = no"

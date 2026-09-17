@@ -1,0 +1,43 @@
+# Raw and intermediate data (too large for git; see README for how to get it)
+/data/
+/final data/
+/output/figures/
+/output/sessionInfo.txt
+
+# Large redundant packaging stages (not part of the public code repo)
+/submission/
+/submission.zip
+/R_Project/
+/Submission_Final/
+/Submission_Final.zip
+/StudIP_Upload/
+
+# Secrets -- never commit API keys
+groq_keys.txt
+groq api.txt
+.usable_keys
+
+# Run logs and scratch output
+logs_*.txt
+/tmp_cli/
+/plan/
+/docs/manuscript.*
+/docs/coder_template.html
+
+# Report drafts and binaries not part of the code repository
+*.pdf
+*.docx
+*.pptx
+*.tex
+!docs/**/*.pdf
+
+# R / Python housekeeping
+.Rhistory
+.Rproj.user/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db

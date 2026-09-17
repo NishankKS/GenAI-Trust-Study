@@ -1,0 +1,12 @@
+BALANCE: design-weighted sample against the population
+     variable  population  weighted_sample  abs_diff  std_diff
+      n_words     35.5445          35.8116    0.2670    0.0045
+        depth      1.3935           1.3372    0.0563    0.0231
+   caps_ratio      0.0448           0.0448    0.0000    0.0005
+  n_2ndperson      0.7607           0.7500    0.0107    0.0057
+      n_links      0.0697           0.0716    0.0019    0.0049
+        score      5.9930           7.5788    1.5858    0.0327
+ is_top_level      0.4657           0.4692    0.0035    0.0071
+month 2026-03      0.1815           0.1838    0.0023       NaN
+largest standardised difference on a continuous variable: 0.0327
+largest absolute difference on a monthly share: 0.0023

@@ -1,0 +1,11 @@
+        construct     n accuracy    f1
+           <char> <int>    <num> <num>
+1:      relevance   150     0.66 0.763
+2: any_incivility   150     0.90 0.211
+3:         stance   150     0.54    NA
+   construct     n accuracy
+      <char> <int>    <num>
+1: dimension   150    0.653
+2:    target   150    0.600
+
+expected calibration error (incivility) = 0.100 over 150 test comments

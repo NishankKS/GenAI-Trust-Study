@@ -1,0 +1,15 @@
+topic,ambivalent,distrust,non_evaluative,trust,distrust_ratio
+regulation_policy,0.002,0.837,0.133,0.029,28.86
+other4,0.006,0.745,0.171,0.078,9.55
+corporate_money,0.007,0.715,0.196,0.082,8.72
+safety_alignment,0.02,0.673,0.26,0.047,14.32
+labour_displacement,0.017,0.661,0.171,0.152,4.35
+art_copyright,0.021,0.638,0.238,0.103,6.19
+other1,0.021,0.625,0.223,0.132,4.73
+accuracy_hallucination,0.037,0.612,0.239,0.112,5.46
+other3,0.035,0.599,0.234,0.132,4.54
+privacy_data,0.023,0.555,0.261,0.161,3.45
+education_cheating,0.024,0.547,0.294,0.134,4.08
+companionship_use,0.047,0.525,0.237,0.192,2.73
+other2,0.034,0.444,0.302,0.221,2.01
+capability_quality,0.076,0.341,0.212,0.372,0.92

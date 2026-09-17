@@ -1,0 +1,11 @@
+annotated sample drawn : 4997
+eligible after frame correction: 4972
+human-coded subsample  : 360
+
+ dev test 
+ 210  150 
+
+eligible human-coded   : 358
+
+ dev test 
+ 208  150 
