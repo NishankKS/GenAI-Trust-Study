@@ -1,0 +1,6 @@
+dictionary,reason
+Loughran-McDonald,"Built and validated on financial disclosures. 'liability', 'crude' and 'exposure' carry domain meanings that do not transfer to Reddit."
+Bing (Hu & Liu),No negation handling and no validation on user-generated text; 'not good' scores positive.
+AFINN,"Single-annotator crowd list, integer valence, no negation or intensifier handling."
+Perspective API / hosted toxicity,"Measures the vendor's construct of toxicity, not the incivility definition in our codebook; unversioned and not auditable."
+LIWC,Proprietary and licence-restricted; cannot be shipped with a reproducible pipeline.

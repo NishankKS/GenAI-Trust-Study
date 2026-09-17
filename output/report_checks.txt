@@ -1,0 +1,14 @@
+corpus   raw 1,128,555 -> analysis 824,518 -> prefilter 280,198 | retained 73.1%
+venues   824,518 | threads 44,303 | authors 225,953 | AI-reference share 0.340
+sample   24 strata, n = 4,997, frame N = 827,233 | r/MachineLearning 2.9% of corpus, 8.7% of sample
+coders   n = 358 | alpha: relevance 0.907, stance 0.872, dimension 0.886, target 0.769, incivility_direction 0.963, name_calling 1.000, vulgarity 0.972, aspersion 0.973, lying_accusation 1.000, pejorative_speech 0.932, any_incivility 0.952
+dropped  identity_attack, threat (zero instances by both coders, alpha undefined)
+winners  any_incivility: LLM gpt-oss-120b F1=0.766 | relevance: LLM qwen3.8-27b F1=0.790 | stance: LLM two-family ensemble (agreement only) F1=0.717
+floor    stance dictionary LSD2015 F1=0.310, distilled F1=0.343
+inter-MODEL vs inter-CODER  relevance 0.487 vs 0.907 | stance 0.581 vs 0.872 | incivility 0.634 vs 0.952
+DSL      relevant 0.303->0.640 [0.558,0.730] | distrust 0.240->0.315 [0.257,0.373] | trust 0.115->0.162 [0.125,0.203] | incivil 0.029->0.150 [0.106,0.198]
+ECE      0.100 over 150 test comments
+topics   14, labelled 246,705 comments | most distrusting regulation_policy (0.837), least capability_quality (0.341)
+model    distrust OR = 4.945 [4.462, 5.479] | depth OR = 1.677 | parent-uncivil OR = 3.530 [3.111, 4.004]
+RQ3      incivility by topic 0.1082 (other4) to 0.0022 (other2) | topic x incivility V=0.179 | stance x incivility V=0.128 | topic x stance V=0.190
+graph    274 edges / 254 entities / 38 communities | signs -1:84 0:59 +1:131 | hand-checked 0 of 100

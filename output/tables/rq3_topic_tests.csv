@@ -1,0 +1,4 @@
+test,chi2,df,p,cramers_v,cochran_ok,n
+topic x incivility,7934.5,13,0.0,0.179,True,246705
+stance x incivility,4023.1,3,0.0,0.128,True,246705
+topic x stance,26591.1,39,0.0,0.19,True,246705

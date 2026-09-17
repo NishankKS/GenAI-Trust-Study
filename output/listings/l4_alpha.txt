@@ -1,0 +1,17 @@
+               variable     n alpha pct_agree
+                 <char> <int> <num>     <num>
+1:            relevance   358 0.907     0.978
+2:               stance   358 0.872     0.916
+3:            dimension   358 0.886     0.919
+4:               target   358 0.769     0.835
+5: incivility_direction   358 0.963     0.989
+
+agreement with the shipped table:
+Key: <variable>
+               variable recomputed shipped
+                 <char>      <num>   <num>
+1:            dimension      0.886   0.886
+2: incivility_direction      0.963   0.963
+3:            relevance      0.907   0.907
+4:               stance      0.872   0.872
+5:               target      0.769   0.769

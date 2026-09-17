@@ -1,0 +1,12 @@
+strata: 24 | allocated n: 4,997 | frame N: 827,233
+inclusion probability pi_h: 0.00151 to 0.09839 (ratio 65)
+design weight w_h:          10.2 to 662.8
+
+largest and smallest strata:
+                        stratum    N_h   n_h    pi_h   w_h
+                         <char>  <int> <int>   <num> <num>
+1:          ChatGPT|noref|short 221383   334 0.00151 662.8
+2:         ChatGPT|noref|medium 133308   260 0.00195 512.7
+3:         ChatGPT|airef|medium  80487   624 0.00775 129.0
+4: MachineLearning|airef|medium   1925    97 0.05039  19.8
+5:  MachineLearning|airef|short    498    49 0.09839  10.2

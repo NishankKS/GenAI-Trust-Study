@@ -1,0 +1,41 @@
+node,degree,betweenness,community,type
+ChatGPT,75,2111,2,model
+Claude,48,1457.4,1,model
+AI (general),40,286.8,6,model
+Gemini,21,964.5,2,model
+OpenAI,17,568.2,4,company
+Grok,12,302,3,model
+Anthropic,10,137,4,company
+Coding,10,0,1,capability
+Codex,9,32,1,model
+Google,7,0,4,company
+Job Loss,5,0,15,harm
+Copilot,4,0,25,model
+Opus,4,3,8,model
+People,4,66,7,actor
+Privacy Loss,4,0,5,harm
+Accio Work,3,0,1,company
+Agi,3,0,7,capability
+DeepSeek,3,0,1,model
+Fable,3,0,16,model
+Image Generation,3,0,2,capability
+Luna,3,33,17,model
+Misinformation,3,0,2,harm
+Netflix,3,0,4,company
+Other Models,3,33,1,model
+5.4 Pro,2,0,8,model
+Answering,2,0,1,capability
+Companies,2,0,15,company
+Developer,2,0,1,actor
+Doctors,2,0,6,actor
+Explaining Topics,2,0,1,capability
+Glm,2,0,3,model
+Haiku,2,0,8,model
+Hallucinations,2,0,6,harm
+Kimi,2,0,3,model
+Locally Run Models,2,0,4,model
+Models,2,0,7,model
+My Company (Big F500,2,0,4,company
+Organizing Essays,2,0,1,capability
+Pentagon,2,0,9,actor
+Sanitization,2,0,2,capability

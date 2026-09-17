@@ -1,0 +1,19 @@
+modelled topics: 14 (10 seeded, 4 residual) over 246,705 comments
+                     topic     n share seeded
+                    <char> <int> <num> <lgcl>
+ 1:     capability_quality 23063 0.093   TRUE
+ 2:        corporate_money 21176 0.086   TRUE
+ 3:      regulation_policy 20389 0.083   TRUE
+ 4:          art_copyright 20049 0.081   TRUE
+ 5:    labour_displacement 19310 0.078   TRUE
+ 6:                 other4 19137 0.078  FALSE
+ 7:                 other2 18763 0.076  FALSE
+ 8:      companionship_use 17091 0.069   TRUE
+ 9:                 other3 17015 0.069  FALSE
+10:     education_cheating 16430 0.067   TRUE
+11: accuracy_hallucination 16049 0.065   TRUE
+12:           privacy_data 14284 0.058   TRUE
+13:       safety_alignment 12272 0.050   TRUE
+14:                 other1 11677 0.047  FALSE
+
+residual share: 0.270 | NMI = 0.1651 (n = 99734)

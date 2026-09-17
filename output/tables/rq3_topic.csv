@@ -1,0 +1,15 @@
+topic,n,incivil,distrust,trust,seeded
+other4,19137,0.1082,0.7446,0.0781,False
+regulation_policy,20389,0.0698,0.8367,0.0289,True
+other1,11677,0.0309,0.6246,0.1317,False
+companionship_use,17091,0.0301,0.5247,0.1916,True
+art_copyright,20049,0.0292,0.6381,0.1026,True
+corporate_money,21176,0.0161,0.7151,0.0816,True
+education_cheating,16430,0.0156,0.5474,0.1342,True
+safety_alignment,12272,0.0146,0.6734,0.047,True
+labour_displacement,19310,0.0131,0.6606,0.1517,True
+other3,17015,0.012,0.5991,0.1318,False
+accuracy_hallucination,16049,0.012,0.612,0.1117,True
+privacy_data,14284,0.0095,0.5552,0.1607,True
+capability_quality,23063,0.0049,0.3408,0.3715,True
+other2,18763,0.0022,0.4441,0.2205,False

@@ -1,0 +1,26 @@
+ Family: binomial  ( logit )
+Formula:          
+incivil ~ stance3 + log_words + depth_c + caps_ratio + n_2ndperson +  
+    venue + month + (1 | link_id)
+Data: MS
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+  18938.1   19096.0   -9452.1   18904.1     79983 
+
+Random effects:
+
+Conditional model:
+ Groups  Name        Variance Std.Dev.
+ link_id (Intercept) 0.8342   0.9134  
+Number of obs: 80000, groups:  link_id, 8276
+
+Conditional model:
+                       Estimate Std. Error z value Pr(>|z|)    
+(Intercept)            -5.05034    0.13792  -36.62  < 2e-16 ***
+stance3trust          -18.50194 1507.35894   -0.01 0.990207    
+stance3distrust         1.59830    0.05235   30.53  < 2e-16 ***
+stance3ambivalent     -16.21405 1376.04555   -0.01 0.990599    
+log_words              -0.46070    0.02988  -15.42  < 2e-16 ***
+depth_c                 0.51686    0.01715   30.13  < 2e-16 ***
+caps_ratio             -0.10204    0.02975   -3.43 0.000603 ***
+n_2ndperson             0.43507    0.01836   23.70  < 2e-16 ***

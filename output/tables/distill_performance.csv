@@ -1,0 +1,4 @@
+construct,n,accuracy,f1
+relevance,150,0.66,0.763
+any_incivility,150,0.9,0.211
+stance,150,0.54,

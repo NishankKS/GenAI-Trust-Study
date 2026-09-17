@@ -1,0 +1,12 @@
+category_type,category,naive,corrected,ci_low,ci_high,shift_pp,corrected_share_of_evaluative
+dimension,competence_reliability,0.2359,0.3073,0.256,0.3664,7.14,0.6379
+dimension,integrity_motives,0.0629,0.0566,0.0353,0.0827,-0.63,0.1175
+dimension,safety_risk,0.0507,0.0307,0.0159,0.0462,-2.0,0.0637
+dimension,transparency,0.0026,0.0189,0.0093,0.0299,1.63,0.0392
+dimension,societal_impact,0.0547,0.0682,0.0432,0.0982,1.35,0.1416
+dimension,not_applicable,0.5933,0.5184,0.4556,0.5768,-7.49,
+target,specific_model,0.1407,0.1958,0.1435,0.2577,5.51,0.3806
+target,company,0.058,0.0562,0.0366,0.0801,-0.18,0.1093
+target,technology_general,0.2061,0.2303,0.1894,0.2747,2.43,0.4477
+target,community_users,0.0088,0.0321,0.0116,0.0605,2.33,0.0624
+target,not_applicable,0.5864,0.4855,0.4222,0.5496,-10.09,

@@ -1,0 +1,3 @@
+HUMAN gold standard: 358 comments double-coded by UM and NK.
+Adjudication rule: agreement = label; disagreement = conservative label.
+Disputed rate by variable: relevance 2.2%, stance 8.4%, dimension 8.1%, target 16.5%, incivility_direction 1.1%

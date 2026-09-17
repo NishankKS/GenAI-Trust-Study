@@ -1,0 +1,10 @@
+step,n,note
+raw comments ingested,1128555,""
+window 2026-03-01 to 2026-08-31,1124726,""
+deleted / removed / empty dropped,1062901,""
+bots / AutoModerator dropped,1010652,"-52,249"
+stickied mod posts dropped,1006636,""
+official moderation dropped,1003799,"-2,837"
+shorter than 4 words dropped,846593,""
+non-English dropped,824518,"-22,075"
+lexical relevance prefilter (kept),280198,high-recall; LLM relevance decides in S4

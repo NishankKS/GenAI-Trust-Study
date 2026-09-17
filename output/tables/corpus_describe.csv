@@ -1,0 +1,5 @@
+subreddit,comments,threads,authors,ai_ref_share,median_words,top_level_share,median_depth
+ChatGPT,565241,29008,154302,0.316,17,0.469,1
+OpenAI,149575,8237,40167,0.374,20,0.426,1
+artificial,85792,4756,24260,0.469,30,0.512,0
+MachineLearning,23910,2302,7224,0.23,28,0.458,1

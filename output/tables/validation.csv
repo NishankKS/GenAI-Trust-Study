@@ -1,0 +1,14 @@
+construct,instrument,coverage,cost,n_test,macro_f1,accuracy,kappa
+any_incivility,LLM gpt-oss-120b,"5,000 sampled",~625 requests,150,0.766,0.913,0.532
+any_incivility,LLM safeguard-20b (codebook as policy),"5,000 sampled",~625 requests,150,0.73,0.9,0.46
+any_incivility,Wordlist (vulgarity/name-calling/bad-faith),full corpus,free,150,0.599,0.86,0.198
+any_incivility,Distilled classifier (embeddings),full corpus,one CPU night,150,0.518,0.88,0.053
+relevance,LLM qwen3.8-27b,"5,000 sampled",~625 requests,147,0.79,0.878,0.586
+relevance,LLM gpt-oss-120b,"5,000 sampled",~625 requests,150,0.635,0.733,0.317
+relevance,Lexical AI-reference prefilter,full corpus,free,150,0.634,0.793,0.277
+relevance,Distilled classifier (embeddings),full corpus,one CPU night,150,0.576,0.653,0.247
+stance,LLM two-family ensemble (agreement only),"5,000 sampled","~1,250 requests",109,0.717,0.817,0.73
+stance,LLM gpt-oss-120b,"5,000 sampled",~625 requests,150,0.611,0.713,0.583
+stance,LLM qwen3.8-27b,"5,000 sampled",~625 requests,147,0.597,0.701,0.57
+stance,Distilled classifier (embeddings),full corpus,one CPU night,150,0.343,0.513,0.255
+stance,Dictionary LSD2015 (net tone),full corpus,free,150,0.31,0.407,0.135

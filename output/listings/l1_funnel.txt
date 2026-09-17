@@ -1,0 +1,11 @@
+                                 step       n   kept
+                               <char>   <int> <char>
+1:              raw comments ingested 1128555 100.0%
+2:    window 2026-03-01 to 2026-08-31 1124726  99.7%
+3:  deleted / removed / empty dropped 1062901  94.2%
+4:       bots / AutoModerator dropped 1010652  89.6%
+5:         stickied mod posts dropped 1006636  89.2%
+6:        official moderation dropped 1003799  88.9%
+7:       shorter than 4 words dropped  846593  75.0%
+8:                non-English dropped  824518  73.1%
+9: lexical relevance prefilter (kept)  280198  24.8%
